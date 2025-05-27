@@ -1,12 +1,42 @@
-# React + Vite
+# 🌍 Journal Travel App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi **primer proyecto en React**, una aplicación sencilla que muestra **notas de viajes y lugares visitados**. La app utiliza **componentes bien estructurados**, **props** y **mapeo de datos** para renderizar de forma dinámica cada entrada de viaje.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** (Vite)
+- 💨 **Tailwind CSS** para estilos rápidos y responsivos
+- 🗂 **Componentes reutilizables**
+- 🧩 Uso de **props** y **mapeo de datos**
 
-## Expanding the ESLint configuration
+## 🧭 Funcionalidad
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación muestra tarjetas con:
+
+- Imagen del lugar
+- Ubicación (con link a Google Maps)
+- Fechas del viaje
+- Descripción corta del destino
+
+## 💡 Lecciones aprendidas
+
+- Cómo estructurar una app React desde cero
+- Cómo dividir una UI en componentes
+- Cómo pasar datos con `props`
+- Cómo usar `.map()` para generar múltiples componentes dinámicamente
+
+---
+
+## 📸 Vista previa
+
+> *(Puedes agregar una captura aquí si gustas)*
+
+---
+
+## 🚀 Instalación
+
+```bash
+git clone https://github.com/Joreynoso/react-journal-travel.git
+cd react-journal-travel
+npm install
+npm run dev
