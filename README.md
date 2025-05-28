@@ -29,7 +29,7 @@ La aplicación muestra tarjetas con:
 
 ## 📸 Vista previa
 
-> *(Puedes agregar una captura aquí si gustas)*
+![Vista previa de la aplicación](./assets/.assetsscreenshot.png)
 
 ---
 
